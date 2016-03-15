@@ -1,0 +1,23 @@
+Parameters
+    LX = 50.0
+    LY = 0.50
+    LZ = 30.0
+    nX = 100
+    nY = 1
+    nZ = 30
+ 
+Parameters
+    ga = 3.0
+    nu = 0.3
+    om = 0.1
+    aa = 1.0
+    mm = 10
+    c0 = 0.5
+    lf = 4*LX/nX
+    sc = 0.12
+    ze = 10.0
+ 
+MATErial       1
+ user   1   0   0   0   0   0   0
+    50.d3 0.3 100 2.0 2.0 1.d-7 1.d-5
+    0.8 1.05 9.d-6,00.0,0.025 0.0d0

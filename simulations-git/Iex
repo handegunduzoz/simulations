@@ -1,0 +1,36 @@
+FEAP 
+,,1,3,4,8
+
+
+PARAmeter          !Material Parameters
+ xs   = 200
+ xmu = 0.7 
+ xN  = 5.5
+ p_ls = 1
+ p_ep = 1.d-5
+ p_cr = 2.0
+ p_ze = 10
+ pade = 0
+ tayl = 6
+mu1 = 0.5
+tau1 = 10
+
+MATE 1
+USER 01
+0.19 0.45 1.00, 1.d1 2.0  1.d-2, 1.d-7
+1.9   0.130   0.0,  20 0.025 1.d3
+
+
+include mexcentric3d7
+
+EBOUndary
+1 -30  1 1 1 0
+1  30  1 1 1 0
+
+EDISp
+1 30 1 0 0 0
+ 
+END
+INTE 
+
+STOP
